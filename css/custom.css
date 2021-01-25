@@ -1,0 +1,10 @@
+.navbar .btn {
+  font-size: .8em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: .375rem .15rem
+}
+
+header.masthead {
+  background: url("../img/the_art_of_being_unordinary_main_graphic1.jpg") no-repeat center center;
+}
