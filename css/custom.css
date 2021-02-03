@@ -8,3 +8,21 @@
 header.masthead {
   background: url("../img/the_art_of_being_unordinary_main_graphic1.jpg") no-repeat center center;
 }
+
+.navbar-collapse li{
+  padding: 9px;
+}
+
+.collapse li a, .collapsing li a {
+  float: right;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .navbar-expand-xl .collapse.show li, .navbar-expand-xl .collapsing li {
+    width: 12em;
+    display: inline-block;
+    position: relative;
+    right: calc(-100% + 12em);
+  }
+}
