@@ -26,3 +26,9 @@ header.masthead {
     right: calc(-100% + 12em);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand, .navbar-brand img {
+    width: 75%;
+  }
+}
